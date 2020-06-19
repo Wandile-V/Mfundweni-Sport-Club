@@ -3,6 +3,7 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" type="text/css" href="css/msc.css"/>
 <title>GALLERY</title>
 
 </head>
@@ -17,15 +18,25 @@
 		</ul>
 	</div>
 
-<p>Some of the images from our team</p>
-<div id="gallery">
-	<a href="images/Picture1.jpg" data-lightbox="namib" title="First game"> <!--IMG 1-->
-	<img src="images.jpg" alt="First game" class="img-thumbnail"/></a> 
-	<a href="images/Picture2.jpg" data-lightbox="namib" title="Team"><!--IMG 2-->
-	<img src="images.jpg" alt="Team" class="img-thumbnail"/></a>
-		
 
+<div id="container">
+	<p>Some of the images from our team</p>
+	<img src="images/Picture1.jpg" class="slides" alt=""/>	
+	<img src="images/Picture2.jpg"class="slides" alt=""/>	
+	<img src="images/Picture3"class="slides" alt=""/>	
+							
+	<a class="prev" onclick="plusIndex(-1)">&#10094</a>
+	<a class="next" onclick="plusIndex(+1)">&#10095</a>
 </div>
+
+
+<!-- <div id="gallery">
+	<a href="images/Picture1.jpg" data-lightbox="namib" title="First game"> <!--IMG 1
+	<img src="images.jpg" alt="First game" class="img-thumbnail"/></a> 
+	<a href="images/Picture2.jpg" data-lightbox="namib" title="Team"><!--IMG 2
+	<img src="images.jpg" alt="Team" class="img-thumbnail"/></a>	
+
+</div> -->
 </body>
 
 </html>
