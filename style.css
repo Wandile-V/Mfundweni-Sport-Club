@@ -8,8 +8,9 @@
 	margin-right: auto;
 }
 
+/* Navigation bar */
 li{
-	display:inline;
+	display: inline;
 	text-align: center;
     margin-left: auto;
     margin-right: auto;
