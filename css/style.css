@@ -1,5 +1,7 @@
 ﻿body {
-
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
 }
 
 #container {
@@ -22,7 +24,7 @@ li{
 	height: 150px;
 };
 
-img{
-	width: 250px;
-	height: 150px;
+.content img{
+	width: 50px;
+	height: 50px;
 };
