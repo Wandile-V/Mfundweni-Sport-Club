@@ -22,6 +22,7 @@
 		<h1>Member Profile</h1>
         
         
+        
 	</div>
 
 </body>
