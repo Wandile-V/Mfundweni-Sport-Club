@@ -1,14 +1,14 @@
 ﻿body {
-	margin-left: auto;
+	margin-left: 20px;
 	margin-right: auto;
 	padding: 10px;
 }
-
+/* 
 #container {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
 /* Navigation bar */
 li{
