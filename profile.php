@@ -11,11 +11,11 @@
 	<img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/>
 	<div id="navbar">		
 		<ul class="nav navbar-nav"> 
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about-us.html">About Us</a></li>
-			<li><a href="teams.html">Teams</a></li>
-			<li><a href="gallery.html">Gallery</a></li>						
-			<li><a href="contact-us.html">Contact Us</a></li>						
+			<li><a href="index.php">Home</a></li>
+			<li><a href="about-us.php">About Us</a></li>
+			<li><a href="teams.php">Teams</a></li>
+			<li><a href="gallery.php">Gallery</a></li>						
+			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
 	<div id="container">
