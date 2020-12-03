@@ -1,12 +1,11 @@
 <!DOCTYPE html >
 <html>
-
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Login</title>
-<link  rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Login</title>
+		<link  rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
 
 <body>
 	<img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/>
@@ -21,20 +20,20 @@
 	</div>
 	<div id="container">
 		<h1>Login</h1>
-        <form id="contact-form" action="server.php" method="POST">
-                
-                <label for="email">Member ID:</label>
-                <input type="text" id="member-id" name="member-id" placeholder="Member-Id">
-                </br></br>
-                
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="password">
-                </br></br>
-                <input class="button" type="submit" name="user-login-submit" value="Submit"> 
-                <p>Do not have an account? Click here to <a href="register.php">register</a></p>
-            </form>
+			<form id="contact-form" action="server.php" method="POST">
+					
+					<label for="email">Member ID:</label>
+					<input type="text" id="member-id" name="member-id" placeholder="Member-Id">
+					</br></br>
+					
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password" placeholder="password">
+					</br></br>
+					<input class="button" type="submit" name="user-login-submit" value="Submit"> 
+					<p>Do not have an account? Click here to <a href="register.php">register</a></p>
+				</form>
 
-        
+			
 	</div>
 
 </body>
