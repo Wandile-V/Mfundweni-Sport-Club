@@ -24,7 +24,7 @@
 			<form id="contact-form" action="server.php" method="POST">
 					
 					<label for="name">Name</label>
-					<input type="text" id="username" name="name" placeholder="Name">
+					<input type="text" id="membername" name="name" placeholder="Name">
 					</br></br>
 
                     <label for="surname">Surname</label>
