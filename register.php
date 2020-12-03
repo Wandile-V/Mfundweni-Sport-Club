@@ -48,7 +48,7 @@
                     <br><br>
 
 					<input class="button" type="submit" name="user-login-submit" value="Submit"> 
-					<p>Do not have an account? Click here to <a href="register.php">register</a></p>
+					<p>Already have an account? Click here to <a href="login.php">login</a></p>
 				</form>
 
 			
