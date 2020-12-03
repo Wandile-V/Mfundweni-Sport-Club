@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Home</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<title>Home</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
 
 <body>
 	<img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>
