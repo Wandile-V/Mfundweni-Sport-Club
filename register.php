@@ -43,8 +43,9 @@
 					<input type="password" id="password" name="password" placeholder="password">
 					</br></br>
 
-                    <label for="password">Password</label>
+                    <label for="password">Confirm Password</label>
                     <input type="password" id="conpasssword" name="confirm-password" placeholder="Confirm Password">
+                    <br><br>
 
 					<input class="button" type="submit" name="user-login-submit" value="Submit"> 
 					<p>Do not have an account? Click here to <a href="register.php">register</a></p>
