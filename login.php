@@ -22,8 +22,8 @@
 		<h1>Login</h1>
 			<form id="contact-form" action="server.php" method="POST">
 					
-					<label for="email">Member ID:</label>
-					<input type="text" id="member-id" name="member-id" placeholder="Member-Id">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="member-email" placeholder="Email">
 					</br></br>
 					
 					<label for="password">Password</label>
