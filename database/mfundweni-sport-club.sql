@@ -10,5 +10,6 @@ CREATE TABLE Players{
     playerName VARCHAR(20) NOT NULL,
     surname VARCHAR(20) NOT NULL,
     email VARCHAR(20) NULL,
-    dateOfBirth DATE NOT NULL
+    dateOfBirth DATE NOT NULL,
+    position VARCHAR(30) NOT NULL
 }
