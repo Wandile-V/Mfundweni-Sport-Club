@@ -1,4 +1,4 @@
-CREATE TABLE Members{
+CREATE TABLE members{
     memberName VARCHAR(20) NOT NULL,
     surname VARCHAR(20) NOT NULL,
     email VARCHAR(20) NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE Members{
     memberPassword VARCHAR(30) NOT NULL
 }
 
-CREATE TABLE Players{
+CREATE TABLE players{
     playerName VARCHAR(20) NOT NULL,
     surname VARCHAR(20) NOT NULL,
     email VARCHAR(20) NULL,
