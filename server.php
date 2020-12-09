@@ -1,5 +1,5 @@
 <?php
-//************************** Register Member */
+//************************** Register Member **********************//
 if(isset($_POST['register-submit']))
 {
     $name = mysqli_real_escape_string($db_connect, $_POST['name']);
@@ -12,5 +12,24 @@ if(isset($_POST['register-submit']))
     mysqli_query($db_connect, $registerQuery);
 
     header('location: login.php');
+}
+
+//************************** Member login ***********************//
+if(isset($_POST['login-submit'])
+{
+    //Read all values inserted in the login form
+    $memberEmail = mysqli_real_escape($db_connect, $_POST['member-email']);
+    $memberPassword = mysqli_real_escape($db_connect, $_POST['password']);
+
+    //Read from the database
+    $loginQuery = "SELECT * FROM members WHERE 'memberEmail = $memberEmail' AND 'memberPasseord = $memberPassword'";
+    $results = mysqli_query($db_connect, $loginQuery);
+
+    if(mysqli_num_rows($results) == 1)
+    {
+        echo '<script>alert("Login Succesful! :)")</script>';
+
+        //redirects 
+    }
 }
 ?>
