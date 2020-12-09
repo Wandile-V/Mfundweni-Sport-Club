@@ -30,6 +30,12 @@ if(isset($_POST['login-submit'])
         echo '<script>alert("Login Succesful! :)")</script>';
 
         //redirects 
+        header('location: profile.php');
+    }
+    else
+    {
+        header('location: login.php');
+            echo '<script>alert("Incorrect email/password")</script>';
     }
 }
 ?>
