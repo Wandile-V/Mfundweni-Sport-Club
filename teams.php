@@ -15,7 +15,7 @@
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.php">Gallery</a></li>						
-			<li><a href="contact-us.php"">Contact Us</a></li>						
+			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
 <div id="container">
@@ -33,6 +33,8 @@
 	integrated into the club's ranks. </p>
 	<h3>Ngonini FC</h3>
 </div>
+
+	<p>Click <a href="player-profile.php">here</a> to view the players within our ranks.
 
 </body>
 
