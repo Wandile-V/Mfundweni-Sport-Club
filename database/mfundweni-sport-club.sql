@@ -8,8 +8,8 @@ CREATE TABLE members{
 
 CREATE TABLE players{
     playerName VARCHAR(20) NOT NULL,
-    surname VARCHAR(20) NOT NULL,
-    email VARCHAR(20) NULL,
+    playerSurname VARCHAR(20) NOT NULL,
+    playerEmail VARCHAR(20) NULL,
     dateOfBirth DATE NOT NULL,
     position VARCHAR(30) NOT NULL
 }
