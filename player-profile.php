@@ -67,6 +67,16 @@
 
 							</td>
 						</tr>
+
+                        <tr>
+							<td>Date Of Birth</td>
+							<td>
+								<div class="input-group">
+									<input type="text" name="dateOfBirth" value="<?php echo $editRow['dateOfBirth'];?>">
+							  	</div>
+
+							</td>
+						</tr>
 						
 						<tr>
 							<td>Position</td>
