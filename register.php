@@ -21,7 +21,7 @@
 	</div>
 	<div id="container">
 		<h1>Member Registration</h1>
-			<form id="contact-form" action="server.php" method="POST">
+			<form class="form" action="server.php" method="POST">
 					
 					<label for="name">Name</label>
 					<input type="text" id="membername" name="name" placeholder="Name">
