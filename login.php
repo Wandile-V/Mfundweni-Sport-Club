@@ -20,7 +20,7 @@
 	</div>
 	<div id="container">
 		<h1>Login</h1>
-			<form id="contact-form" action="server.php" method="POST">
+			<form class="form" action="server.php" method="POST">
 					
 					<label for="email">Email</label>
 					<input type="text" id="email" name="member-email" placeholder="Email">
