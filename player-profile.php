@@ -16,7 +16,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hello World</title>
+        <title>Player Profile</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
@@ -24,7 +24,7 @@
     <body>
         
         <div class="container">
-            <p id="hello-world">Hello World</p>    
+            <p id="player-profile">Hello World</p>    
              <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
