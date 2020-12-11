@@ -3,9 +3,9 @@
 	session_start();
 	include('dbConn.php');
 
-	if(isset($_GET["userID"]))
+	if(isset($_GET["playerID"]))
 	{
-		$query = "SELECT * FROM users WHERE userID = ".$_GET['userID'];
+		$query = "SELECT * FROM players WHERE playerID = ".$_GET['playerID'];
 		$result = mysqli_query($db_connect, $query);
 		$editRow = mysqli_fetch_array($result);	//collects item row info
 	}
