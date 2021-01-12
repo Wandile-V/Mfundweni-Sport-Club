@@ -15,3 +15,5 @@ CREATE TABLE players{
     dateOfBirth DATE NOT NULL,
     position VARCHAR(30) NOT NULL
 }
+
+INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", DATE, "Midfielder");
