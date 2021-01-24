@@ -16,4 +16,4 @@ CREATE TABLE players{
     position VARCHAR(30) NOT NULL
 }
 
-INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", DATE, "Midfielder");
+INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", DATE, "Midfielder"); /*Line to test inserts*/
