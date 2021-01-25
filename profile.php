@@ -19,9 +19,9 @@
 		</ul>
 	</div>
 	<div id="container">
-		<h1>Member Profile</h1>
+		 <h1>Member Profile</h1> <!-- Member profile table goes here -->
         
-        
+    
         
 	</div>
 
