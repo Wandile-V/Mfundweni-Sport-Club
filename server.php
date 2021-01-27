@@ -35,7 +35,7 @@ if(isset($_POST['login-submit'])
     else
     {
         header('location: login.php');
-            echo '<script>alert("Incorrect email/password")</script>';
+            echo '<script>alert("Incorrect email/password")</script>'; //Error message if credentials are incorrect
     }
 }
 ?>
