@@ -97,6 +97,7 @@
 						</tr>
 					</table></center>
 				</form>
+				Click <a href="player-reg.php">here</a> to register a new player.
             </div>
         </div>
     </body>
