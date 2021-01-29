@@ -20,8 +20,22 @@
 	</div>
 	<div id="container">
 		 <h1>Player registration</h1> <!-- Player registration section -->
-        
-    
+		 <form class="form" action="server.php" method="POST">
+					<label for="name">Name</label>
+					<input type="text" id="membername" name="name" placeholder="Name">
+					</br></br>
+
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="member-surname" placeholder="Surname">
+                    <br><br>
+
+                    <label for="position">Position</label>
+					<input type="text" id="email" name="member-email" placeholder="Email">
+					</br></br>
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="member-phone" placeholder="Phone number">
+                    <br><br>    
         
 	</div>
 
