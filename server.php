@@ -14,6 +14,12 @@ if(isset($_POST['register-submit']))
     header('location: login.php');
 }
 
+//*********************** Player registration ************************//
+if(isseet($_POST['player-reg-submit']))
+{
+    
+}
+
 //************************** Member login ***********************//
 if(isset($_POST['login-submit'])
 {
