@@ -35,7 +35,10 @@
 
                     <label for="phone">Phone</label>
                     <input type="tel" id="phone" name="player-phone" placeholder="Phone number">
-                    <br><br>    
+                    <br><br>
+
+					<input class="button" type="submit" name="player-reg-submit" value="Submit">
+		</form> 
         
 	</div>
 
