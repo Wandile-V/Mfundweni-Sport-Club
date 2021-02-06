@@ -22,7 +22,7 @@
 		 <h1>Player registration</h1> <!-- Player registration section -->
 		 <form class="form" action="server.php" method="POST">
 					<label for="name">Name</label>
-					<input type="text" id="playername" name="name" placeholder="Name">
+					<input type="text" id="playername" name="player-name" placeholder="Name">
 					</br></br>
 
                     <label for="surname">Surname</label>
