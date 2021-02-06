@@ -8,7 +8,7 @@ if(isset($_POST['register-submit']))
     $phone = mysqli_real_escape_string($db_connect, $_POST['phone']);
     $password = mysqli_real_escape_string($db_connect, $_POST['password']);
     //******************insert form values */
-    $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberEmail, memberPassword) VALUES ('$name, $surname, $phone, $password')";
+    $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name, $surname, $phone, $password')";
     mysqli_query($db_connect, $registerQuery);
 
     header('location: login.php');
@@ -17,7 +17,10 @@ if(isset($_POST['register-submit']))
 //*********************** Player registration ************************//
 if(isseet($_POST['player-reg-submit']))
 {
-    
+    $name = mysqli_real_escape_string($db_connect, $_POST['name']);
+    $surname = mysqli_real_escape($db_connect, $_POST['surname']);
+    $position = mysqli_real_escape($db_connect, $_POST['position']);
+    $phone = mysqli_real_escape($db_connect, $_POST['phone'])
 }
 
 //************************** Member login ***********************//
