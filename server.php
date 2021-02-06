@@ -17,10 +17,10 @@ if(isset($_POST['register-submit']))
 //*********************** Player registration ************************//
 if(isseet($_POST['player-reg-submit']))
 {
-    $name = mysqli_real_escape_string($db_connect, $_POST['name']);
-    $surname = mysqli_real_escape($db_connect, $_POST['surname']);
-    $position = mysqli_real_escape($db_connect, $_POST['position']);
-    $phone = mysqli_real_escape($db_connect, $_POST['phone'])
+    $name = mysqli_real_escape_string($db_connect, $_POST['player-name']);
+    $surname = mysqli_real_escape($db_connect, $_POST['player-surname']);
+    $position = mysqli_real_escape($db_connect, $_POST['player-position']);
+    $phone = mysqli_real_escape($db_connect, $_POST['player-phone'])
 }
 
 //************************** Member login ***********************//
