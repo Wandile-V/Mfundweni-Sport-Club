@@ -24,6 +24,8 @@ if(isseet($_POST['player-reg-submit']))
 
     //*******************inserts form values */
     $registerQuery = "INSERT INTO players(player-fname, player-surname, player-position, player-phone) VALUES ($name, $surname, $position, $phone)"
+
+    header('location: player-profile.php');
 }
 
 //************************** Member login ***********************//
