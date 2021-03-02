@@ -18,7 +18,7 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-	<div id="container">
+	<div class="form">
 		<h1>Login</h1>
 			<form class="form" action="server.php" method="POST">
 					
