@@ -36,14 +36,14 @@ if(isset($_POST['login-submit'])
     $memberPassword = mysqli_real_escape($db_connect, $_POST['password']);
 
     //Read from the database
-    $loginQuery = "SELECT * FROM members WHERE 'memberEmail = $memberEmail' AND 'memberPasseord = $memberPassword'";
+    $loginQuery = "SELECT * FROM members WHERE 'memberEmail = $memberEmail' AND 'memberPassword = $memberPassword'";
     $results = mysqli_query($db_connect, $loginQuery);
 
     if(mysqli_num_rows($results) == 1)
     {
         echo '<script>alert("Login Succesful! :)")</script>';
 
-        //redirects 
+        //redirects
         header('location: profile.php');
     }
     else
