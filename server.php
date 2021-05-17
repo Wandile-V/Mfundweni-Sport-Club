@@ -29,7 +29,7 @@ if(isseet($_POST['player-reg-submit']))
 }
 
 //************************** Member login ***********************//
-if(isset($_POST['login-submit'])
+if(isset($_POST['login-submit']))
 {
     //Read all values inserted in the login form
     $memberEmail = mysqli_real_escape($db_connect, $_POST['member-email']);
