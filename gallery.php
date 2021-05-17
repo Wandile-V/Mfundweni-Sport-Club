@@ -8,7 +8,7 @@
 
 </head>
 <body>
-	<img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/>
+	<!-- <img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/> -->
 	<div id="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="index.php">Home</a></li>
@@ -29,7 +29,8 @@
 	</p>
 
 	<p>More images from our team</p>
-	<!-- <img src="images/Picture1.jpg" class="slides" alt=""/>	
+	<!-- <img style="width: 120px; height: 120px;" src="images/U19.jpg"  alt="U19Team"/>
+	<img src="images/Picture1.jpg" class="slides" alt=""/>	
 	<img src="images/Picture2.jpg"class="slides" alt=""/>	
 	<img src="images/Picture3"class="slides" alt=""/><br><br>	 -->
 							
