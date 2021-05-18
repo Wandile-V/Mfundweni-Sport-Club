@@ -3,14 +3,6 @@
 	margin-right: auto;
 	padding: 100px;
 }
-/* 
-#container {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-} */
-
-/* Navigation bar 
 li{
 	display: inline;
 	text-align: center;
@@ -19,6 +11,15 @@ li{
     padding: 15px;
 	font-size: 25px;
 }
+/* 
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+/* Navigation bar 
+
 
 .logo{
 	width: 150px;
