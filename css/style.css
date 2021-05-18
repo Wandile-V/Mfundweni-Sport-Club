@@ -10,7 +10,7 @@
 	margin-right: auto;
 } */
 
-/* Navigation bar */
+/* Navigation bar 
 li{
 	display: inline;
 	text-align: center;
@@ -38,16 +38,16 @@ li{
 .form label{
 	display: inline-block;
 	text-align: right;
-	/*float: left;*/
+	/*float: left;
 };
 
 .form input{
 	display: inline-block;
 	text-align: left;
-	/*float: right;*/
+	/*float: right;
 };
 
 h1
 {
 	text-align: center;
-}
+} */
