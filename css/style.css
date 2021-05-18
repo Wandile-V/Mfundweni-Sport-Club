@@ -10,7 +10,14 @@ li{
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-	/* font-size: 25px; */
+	
+}
+
+li a
+{
+	text-decoration: none;
+	color: blue;
+	font-size: 25px;
 }
 /* 
 #container {
