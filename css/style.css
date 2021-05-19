@@ -19,6 +19,10 @@ li a
 	color: blue;
 	font-size: 25px;
 }
+.logo{
+	width: 150px;
+	height: 150px;
+};
 /* 
 #container {
 	width: 800px;
@@ -29,10 +33,7 @@ li a
 
 
 
-.logo{
-	width: 150px;
-	height: 150px;
-};
+
 
 .content img{
 	width: 50px;
