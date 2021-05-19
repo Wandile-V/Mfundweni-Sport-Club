@@ -5,11 +5,12 @@
 	padding: 100px;*/
 }
 /* Navigation bar */
-li{
+#navbar li 
+{
 	display: inline;
 	text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 100px;
     padding: 15px;
 }
 
