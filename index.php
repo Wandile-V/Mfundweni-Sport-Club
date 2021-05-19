@@ -11,7 +11,7 @@
 	
 	<div id="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">		
-			<li><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>"</li>
+			<li><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
