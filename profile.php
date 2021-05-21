@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>Member Profile</title>
-<link  rel="stylesheet" type="text/css" href="css/style.css"/>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
