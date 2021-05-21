@@ -18,24 +18,21 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-	<div class="form">
-		<h1>Login</h1>
-			<form class="form" action="server.php" method="POST">
-					
-					<label for="email">Email</label>
-					<input type="text" id="email" name="member-email" placeholder="Email">
-					</br></br>
-					
-					<label for="password">Password</label>
-					<input type="password" id="password" name="password" placeholder="password">
-					</br></br>
-					<input class="button" type="submit" name="login-submit" value="Submit"> 
-					<p>Do not have an account? Click here to <a href="register.php">register</a></p>
-				</form>
-
-			
-	</div>
-
+		<div class="form">
+			<h1>Login</h1>
+				<form class="form" action="server.php" method="POST">
+						
+						<label for="email">Email</label>
+						<input type="text" id="email" name="member-email" placeholder="Email">
+						</br></br>
+						
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" placeholder="password">
+						</br></br>
+						<input class="button" type="submit" name="login-submit" value="Submit"> 
+						<p>Do not have an account? Click here to <a href="register.php">register</a></p>
+					</form>			
+		</div>
 </body>
 
 </html>
