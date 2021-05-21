@@ -4,15 +4,14 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<title>Home</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css"/>
-		<li><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/></li>
+		<link href="css/style.css"  type="text/css" rel="stylesheet"/>
+		<img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>
 	</head>
 
 <body>
 	
 	<div id="navbar" class="navbar-collapse collapse">
-		<ul class="nav navbar-nav">		
-			
+		<ul class="nav navbar-nav">			
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
