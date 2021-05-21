@@ -4,7 +4,7 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<title>Home</title>
-		<link href="css/style.css" type="text/css" rel="stylesheet"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
 		<img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>
 	</head>
 
