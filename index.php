@@ -10,8 +10,8 @@
 
 <body>
 	
-	<div id="navbar" class="navbar-collapse collapse">
-		<ul class="nav navbar-nav">			
+	<div class="navbar">
+		<ul>			
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
