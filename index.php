@@ -5,12 +5,13 @@
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<title>Home</title>
 		<link href="css/style.css" type="text/css" rel="stylesheet" />
-		<img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>
+	
 	</head>
 
 <body>
-	
+
 	<div class="navbar">
+	<img id="logo" src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/>
 		<ul>			
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
