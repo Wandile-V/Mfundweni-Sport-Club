@@ -14,7 +14,7 @@
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
 			<li><a href="contact-us.php">Contact Us</a></li>	
-			<li><button class="button" href="login.php">Login</button></li>
+			<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
 		</ul>
 	</div>
 
