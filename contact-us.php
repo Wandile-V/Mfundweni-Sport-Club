@@ -6,7 +6,7 @@
 <link  href="css/style.css" type="text/css" rel="stylesheet"/>
 <title>Contact Us</title>
 </head>
-	<img src="images/MSCLogo.jpg" class="logo"/>
+	<a href="index.php"><img src="images/MSCLogo.jpg" class="logo"/></a>
 	<body>
 		<div id="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
