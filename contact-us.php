@@ -8,7 +8,7 @@
 <body>
 	<div id="navbar">
 		<ul class="nav navbar-nav">
-			<a href="index.html"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
+			<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
