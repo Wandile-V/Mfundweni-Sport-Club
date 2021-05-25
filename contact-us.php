@@ -1,15 +1,14 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+﻿<!DOCTYPE html >
+<html>
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<link  href="css/style.css" type="text/css" rel="stylesheet"/>
-<title>Contact Us</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link  href="css/style.css" type="text/css" rel="stylesheet"/>
+	<title>Contact Us</title>
 </head>
-	<a href="index.php"><img src="images/MSCLogo.jpg" class="logo"/></a>
-	<body>
-		<div id="navbar" class="navbar-collapse collapse">
+<body>
+	<div id="navbar">
 		<ul class="nav navbar-nav">
+			<img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
