@@ -23,27 +23,27 @@
 		<h1>Member Registration</h1>
 			<form class="form" action="server.php" method="POST">
 					
-					<label for="name">Name</label>
+					<label for="name">Name</label><br>
 					<input type="text" id="membername" name="name" placeholder="Name">
 					</br></br>
 
-                    <label for="surname">Surname</label>
+                    <label for="surname">Surname</label><br>
                     <input type="text" id="surname" name="member-surname" placeholder="Surname">
                     <br><br>
 
-                    <label for="email">Email</label>
+                    <label for="email">Email</label><br>
 					<input type="text" id="email" name="member-email" placeholder="Email">
 					</br></br>
 
-                    <label for="phone">Phone</label>
+                    <label for="phone">Phone</label><br>
                     <input type="tel" id="phone" name="member-phone" placeholder="Phone number">
                     <br><br>
 					
-					<label for="password">Password</label>
+					<label for="password">Password</label><br>
 					<input type="password" id="password" name="password" placeholder="password">
 					</br></br>
 
-                    <label for="password">Confirm Password</label>
+                    <label for="password">Confirm Password</label><br>
                     <input type="password" id="conpasssword" name="confirm-password" placeholder="Confirm Password">
                     <br><br>
 
