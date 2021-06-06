@@ -26,7 +26,7 @@
 						<input type="text" id="email" name="member-email" placeholder="Email">
 						</br></br>
 						
-						<label for="password">Password</label>
+						<label for="password">Password</label><br>
 						<input type="password" id="password" name="password" placeholder="password">
 						</br></br>
 						<input class="button" type="submit" name="login-submit" value="Submit"> 
