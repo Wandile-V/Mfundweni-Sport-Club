@@ -48,7 +48,7 @@
                     <br><br>
 
 					<input class="button" type="submit" name="register-submit" value="Submit"> 
-					<p>Already have an account? Click here to <a href="login.php">login</a></p>
+					<p>Already have an account? Click <a href="login.php">here</a> to login</p>
 				</form>
 
 			
