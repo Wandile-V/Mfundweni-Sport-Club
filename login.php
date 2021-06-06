@@ -22,7 +22,7 @@
 			<h1>Login</h1>
 				<form class="form" action="server.php" method="POST">
 						
-						<label for="email">Email</label>
+						<label for="email">Email</label><br>
 						<input type="text" id="email" name="member-email" placeholder="Email">
 						</br></br>
 						
