@@ -31,8 +31,8 @@
 						</br></br>
 						<input class="button" type="submit" name="login-submit" value="Login"> 
 						<p>Do not have an account? Click <a href="register.php">here</a> to register</p>
-					</form>			
-		</div>
+		</form>			
+	</div>
 </body>
 
 </html>
