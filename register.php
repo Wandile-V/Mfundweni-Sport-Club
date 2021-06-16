@@ -19,7 +19,7 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-	<div id="container">
+	<div class="form">
 		<h1>Member Registration</h1>
 			<form class="form" action="server.php" method="POST">
 					
@@ -49,7 +49,7 @@
 
 					<input class="button" type="submit" name="register-submit" value="Submit"> 
 					<p>Already have an account? Click <a href="login.php">here</a> to login</p>
-				</form>
+			</form>
 
 			
 	</div>
