@@ -15,12 +15,12 @@ if(isset($_POST['register-submit']))
 }
 
 //*********************** Player registration ************************//
-if(isseet($_POST['player-reg-submit']))
+if(isset($_POST['player-reg-submit']))
 {
     $name = mysqli_real_escape_string($db_connect, $_POST['player-fname']);
-    $surname = mysqli_real_escape($db_connect, $_POST['player-surname']);
-    $position = mysqli_real_escape($db_connect, $_POST['player-position']);
-    $phone = mysqli_real_escape($db_connect, $_POST['player-phone']);
+    $surname = mysqli_real_escape_string($db_connect, $_POST['player-surname']);
+    $position = mysqli_real_escape_string($db_connect, $_POST['player-position']);
+    $phone = mysqli_real_escape_string($db_connect, $_POST['player-phone']);
 
     //*******************inserts form values */
     $registerQuery = "INSERT INTO players (player-fname, player-surname, player-position, player-phone) VALUES ('$name, $surname, $position, $phone')";
@@ -32,8 +32,8 @@ if(isseet($_POST['player-reg-submit']))
 if(isset($_POST['login-submit']))
 {
     //Read all values inserted in the login form
-    $memberEmail = mysqli_real_escape($db_connect, $_POST['member-email']);
-    $memberPassword = mysqli_real_escape($db_connect, $_POST['password']);
+    $memberEmail = mysqli_real_escape_string($db_connect, $_POST['member-email']);
+    $memberPassword = mysqli_real_escape_string($db_connect, $_POST['password']);
 
     //Read from the database
     $loginQuery = "SELECT * FROM members WHERE 'memberEmail = $memberEmail' AND 'memberPassword = $memberPassword'";
