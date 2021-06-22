@@ -17,7 +17,7 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-<div id="container">
+<div class="container">
 	<h1>TEAMS</h1>
 	<h3>First Team</h3>
 	<h3>Under 19</h3>

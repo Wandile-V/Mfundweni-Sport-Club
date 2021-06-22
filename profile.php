@@ -18,7 +18,7 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-	<div id="container">
+	<div class="container">
 		 <h1>Member Profile</h1> <!-- Member profile table goes here -->
         
     
