@@ -20,27 +20,26 @@
 		</ul>
 	</div>
 	<div class="form">
-		<h1>Member Registration</h1>
-			<form class="form" action="server.php" method="POST">
-					
+			<form class="register-form" action="server.php" method="POST">
+					<h1>Member Registration</h1>	
 					<label for="name">Name</label><br>
-					<input type="text" id="membername" name="name" placeholder="Name">
+					<input type="text" id="member-name" name="name" placeholder="Name">
 					</br></br>
 
                     <label for="surname">Surname</label><br>
-                    <input type="text" id="surname" name="member-surname" placeholder="Surname">
+                    <input type="text" id="member-surname" name="member-surname" placeholder="Surname">
                     <br><br>
 
                     <label for="email">Email</label><br>
-					<input type="text" id="email" name="member-email" placeholder="Email">
+					<input type="text" id="member-email" name="member-email" placeholder="Email">
 					</br></br>
 
                     <label for="phone">Phone</label><br>
-                    <input type="tel" id="phone" name="member-phone" placeholder="Phone number">
+                    <input type="tel" id="member-phone" name="member-phone" placeholder="Phone number">
                     <br><br>
 					
 					<label for="password">Password</label><br>
-					<input type="password" id="password" name="password" placeholder="password">
+					<input type="password" id="member-password" name="member-password" placeholder="Password">
 					</br></br>
 
                     <label for="password">Confirm Password</label><br>
