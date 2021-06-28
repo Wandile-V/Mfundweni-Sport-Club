@@ -18,7 +18,7 @@
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
 	</div>
-	<div id="container">
+	<div class="container">
 		 <h1>Player registration</h1> <!-- Player registration section -->
 		 <form class="form" action="server.php" method="POST">
 					<label for="name">Name</label>
