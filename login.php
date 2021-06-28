@@ -19,7 +19,7 @@
 		</ul>
 	</div>
 	<div class="form">
-        <form id="contact-form" action="server.php" method="POST">
+        <form class="contact-form" action="server.php" method="POST">
 			<h1>Login</h1>
             <label for="email">Email:</label>
             <input type="text" id="email" name="member-email" placeholder="Email">
@@ -34,6 +34,7 @@
 
             <p>Do not have an account? Click here to <a href="register.php">register</a></p>
         </form>
+	</div>
 </body>
 
 </html>
