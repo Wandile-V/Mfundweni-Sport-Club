@@ -9,7 +9,7 @@
 <body>
 	<div id="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
-			<img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/>
+			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
