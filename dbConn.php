@@ -14,7 +14,7 @@ $db_connect = mysqli_connect($db_host, $db_username, $db_password, $db_name);
     }
     else
     {
-        echo "<h3>Connected!</h3>"; //When connected 
+        echo "<h3>Connected!</h3>"; //When connection is succesfull 
     }
 
 ?>
