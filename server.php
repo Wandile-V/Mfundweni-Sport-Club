@@ -10,7 +10,7 @@ if(isset($_POST['register-submit']))
     $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
     if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
     {
-        echo '<script>alert("Profile created succesfully!!!")</script>';
+        echo '<script>alert("Profile created succesfully!")</script>';
         header ('location: login.php');
 
     }
