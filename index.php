@@ -20,7 +20,6 @@
 
 	<div class="container">
 		<h1>Welcome to the Mfundweni Sport Club website</h1>
-		<p>Mfundweni Sport Club is small club that aims to promote extra activities amongst the youth through sport. </p>
 	</div>
 </body>
 </html>
