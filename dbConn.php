@@ -3,7 +3,7 @@
 $db_host = "us-cdbr-east-04.cleardb.com";
 $db_username = "b42deaba54b945";
 $db_password = "c1f907bf";
-$db_name = "";
+$db_name = "heroku_9d9ccba1d4041d6";
 
 $db_connect = mysqli_connect($db_host, $db_username, $db_password, $db_name);
 
