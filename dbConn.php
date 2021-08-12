@@ -1,6 +1,6 @@
 <?php
 //connects to the database
-$db_host = "";
+$db_host = "us-cdbr-east-04.cleardb.com";
 $db_username = "";
 $db_password = "";
 $db_name = "";
