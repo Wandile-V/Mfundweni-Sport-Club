@@ -1,4 +1,6 @@
 <?php
+include('dbConn.php');
+
 //************************** Register Member **********************//
 if(isset($_POST['register-submit']))
 {
@@ -8,17 +10,18 @@ if(isset($_POST['register-submit']))
     $phone = mysqli_real_escape_string($db_connect, $_POST['member-phone']);
     $password = mysqli_real_escape_string($db_connect, $_POST['member-password']);
     $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
-    if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
-    {
-        echo '<script>alert("Profile created succesfully!")</script>';
-        header ('location: login.php');
 
-    }
-    else
-    {
-        echo '<script>alert("Passwords do not match")</script>';
-        header ('location: register.php');
-    }
+    // if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
+    // {
+    //     echo '<script>alert("Profile created succesfully!")</script>';
+    //     header ('location: login.php');
+
+    // }
+    // else
+    // {
+    //     echo '<script>alert("Passwords do not match")</script>';
+    //     header ('location: register.php');
+    // }
     //******************insert form values */
     $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name, $surname, $email, $phone, $password')";
     mysqli_query($db_connect, $registerQuery);
