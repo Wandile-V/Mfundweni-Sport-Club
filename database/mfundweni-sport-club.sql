@@ -12,15 +12,8 @@ CREATE TABLE players(
     playerName VARCHAR(20) NOT NULL,
     playerSurname VARCHAR(20) NOT NULL,
     playerEmail VARCHAR(20) NULL,
-    dateOfBirth DATE NOT NULL,
-    position VARCHAR(30) NOT NULL
+    playerDateOfBirth DATE NOT NULL,
+    playerPosition VARCHAR(30) NOT NULL,
+    playerShirtNumber int(2) NOT NULL
 );
-
-CREATE TABLE playerRegistration(
-    playerName VARCHAR(20) NOT NULL,
-    playerSurname VARCHAR(20) NOT NULL,
-    position VARCHAR(20) NOT NULL,
-    phone VARCHAR(10) NOT NULL
-);
-
 INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", DATE, "Midfielder"); /*Line to test inserts*/
