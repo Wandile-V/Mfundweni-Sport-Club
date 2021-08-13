@@ -9,7 +9,7 @@ if(isset($_POST['register-submit']))
     $email = mysqli_real_escape_string($db_connect, $_POST['member-email']);
     $phone = mysqli_real_escape_string($db_connect, $_POST['member-phone']);
     $password = mysqli_real_escape_string($db_connect, $_POST['member-password']);
-    //$cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
+    $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
     // if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
     // {
     //     echo '<script>alert("Profile created succesfully!")</script>';
