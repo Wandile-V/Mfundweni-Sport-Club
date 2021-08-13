@@ -16,4 +16,4 @@ CREATE TABLE players(
     playerPosition VARCHAR(30) NOT NULL,
     playerShirtNumber int(2) NOT NULL
 );
-INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", DATE, "Midfielder"); /*Line to test inserts*/
+INSERT INTO players VALUES (1, "King", "Veza", "King@gmail.com", "1997-12-25", "Midfielder",10); /*Line to test inserts*/
