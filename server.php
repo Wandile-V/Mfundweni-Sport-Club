@@ -22,7 +22,7 @@ if(isset($_POST['register-submit']))
     //     header ('location: register.php');
     // }
     //******************insert form values */
-    $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name, $surname, $email, $phone, $password')";
+    $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name', '$surname', '$email', '$phone', '$password')";
     mysqli_query($db_connect, $registerQuery);
 
     header('location: login.php');
@@ -37,7 +37,7 @@ if(isset($_POST['player-reg-submit']))
     $phone = mysqli_real_escape_string($db_connect, $_POST['player-phone']);
 
     //*******************inserts form values */
-    $registerQuery = "INSERT INTO players (player-fname, player-surname, player-position, player-phone) VALUES ('$name, $surname, $position, $phone')";
+    $registerQuery = "INSERT INTO players (playerName, playerSurname, playerPosition, playerPhone) VALUES ('$name', '$surname', '$position', '$phone')";
 
     header('location: player-profile.php');
 }
@@ -50,12 +50,12 @@ if(isset($_POST['LoginButton']))
     $memberPassword = mysqli_real_escape_string($db_connect, $_POST['member-password']);
 
     //Read from the database
-    $loginQuery = "SELECT * FROM members WHERE 'memberEmail = $memberEmail' AND 'memberPassword = $memberPassword'";
+    $loginQuery = "SELECT * FROM members WHERE memberEmail = '$memberEmail' AND 'memberPassword = '$memberPassword'";
     $results = mysqli_query($db_connect, $loginQuery);
 
     if(mysqli_num_rows($results) == 1)
     {
-        echo '<script>alert("Login Succesful! :)")</script>';
+        echo '<script>alert("Login Successful! :)")</script>';
 
         //redirects
         header('location: profile.php');
