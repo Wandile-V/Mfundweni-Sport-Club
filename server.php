@@ -10,6 +10,7 @@ if(isset($_POST['register-submit']))
     $phone = mysqli_real_escape_string($db_connect, $_POST['member-phone']);
     $password = mysqli_real_escape_string($db_connect, $_POST['member-password']);
     $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
+    
     // if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
     // {
     //     echo '<script>alert("Profile created succesfully!")</script>';
@@ -25,6 +26,7 @@ if(isset($_POST['register-submit']))
     $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name', '$surname', '$email', '$phone', '$password')";
     mysqli_query($db_connect, $registerQuery);
 
+    echo '<script>alert("Passwords do not match")</script>';
     header('location: login.php');
 }
 
@@ -50,7 +52,7 @@ if(isset($_POST['LoginButton']))
     $memberPassword = mysqli_real_escape_string($db_connect, $_POST['member-password']);
 
     //Read from the database
-    $loginQuery = "SELECT * FROM members WHERE memberEmail = '$memberEmail' AND 'memberPassword = '$memberPassword'";
+    $loginQuery = "SELECT * FROM members WHERE memberEmail = '$memberEmail' AND memberPassword = '$memberPassword'";
     $results = mysqli_query($db_connect, $loginQuery);
 
     if(mysqli_num_rows($results) == 1)
@@ -63,7 +65,7 @@ if(isset($_POST['LoginButton']))
     else
     {
         header('location: login.php');
-            echo '<script>alert("Incorrect email/password")</script>'; //Error message if credentials are incorrect
+        echo '<script>alert("Incorrect email/password")</script>'; //Error message if credentials are incorrect
     }
 }
 ?>
