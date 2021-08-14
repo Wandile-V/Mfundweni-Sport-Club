@@ -21,20 +21,21 @@
 	</div>
 	<div class="form">
 			<form class="register-form" action="server.php" method="POST">
-					<h1>Member Registration</h1>	
-					<label for="name">Name</label><br>
+					<h1>Member Registration</h1>
+					<p>NOTE: All fields marked with * are required fields</p>	
+					<label for="name">Name*</label><br>
 					<input type="text" id="member-name" name="member-name" placeholder="Name">
 					</br></br>
 
-                    <label for="surname">Surname</label><br>
+                    <label for="surname">Surname*</label><br>
                     <input type="text" id="member-surname" name="member-surname" placeholder="Surname">
                     <br><br>
 
-                    <label for="email">Email</label><br>
+                    <label for="email">Email*</label><br>
 					<input type="text" id="member-email" name="member-email" placeholder="Email">
 					</br></br>
 
-                    <label for="phone">Phone</label><br>
+                    <label for="phone">Phone*</label><br>
                     <input type="tel" id="member-phone" name="member-phone" placeholder="Phone number">
                     <br><br>
 					
