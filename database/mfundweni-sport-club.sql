@@ -11,7 +11,7 @@ CREATE TABLE players(
     playerID INT(10) PRIMARY KEY NOT NULL AUTO_INCREMENT, 
     playerName VARCHAR(20) NOT NULL,
     playerSurname VARCHAR(20) NOT NULL,
-    playerEmail VARCHAR(20) NULL,
+    playerEmail VARCHAR(20) NOT NULL,
     playerDateOfBirth DATE NOT NULL,
     playerPosition VARCHAR(30) NOT NULL,
     playerShirtNumber int(2) NOT NULL
