@@ -39,11 +39,11 @@
                     <input type="tel" id="member-phone" name="member-phone" placeholder="Phone number">
                     <br><br>
 					
-					<label for="password">Password</label><br>
+					<label for="password">Password*</label><br>
 					<input type="password" id="member-password" name="member-password" placeholder="Password">
 					</br></br>
 
-                    <label for="password">Confirm Password</label><br>
+                    <label for="password">Confirm Password*</label><br>
                     <input type="password" id="conpasssword" name="confirm-password" placeholder="Confirm Password">
                     <br><br>
 
