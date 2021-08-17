@@ -11,23 +11,23 @@ if(isset($_POST['register-submit']))
     $password = mysqli_real_escape_string($db_connect, $_POST['member-password']);
     $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
     
-    // if(mysqli_num_rows($cpassword == $password))//check if the password and confirm passsword match
-    // {
-    //     echo '<script>alert("Profile created succesfully!")</script>';
-    //     header ('location: login.php');
-
-    // }
-    // else
-    // {
-    //     echo '<script>alert("Passwords do not match")</script>';
-    //     header ('location: register.php');
-    // }
-    //******************insert form values */
-    $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name', '$surname', '$email', '$phone', '$password')";
-    mysqli_query($db_connect, $registerQuery);
-
-    echo '<script>alert("Passwords do not match")</script>';
-    header('location: login.php');
+    if($cpassword == $password)//check if the password and confirm passsword match
+    {
+        $registerQuery = "INSERT INTO members (memberName, memberSurname, memberEmail, memberPhone, memberPassword) VALUES ('$name', '$surname', '$email', '$phone', '$password')";
+        mysqli_query($db_connect, $registerQuery);
+    
+        echo "<script>
+            alert('Registration Successful!');
+            window.location.href='login.php';  
+        </script>";
+    }
+    else
+    {
+        echo "<script>
+            alert('Passwords do not match, try again!');
+            window.location.href='login.php';  
+        </script>";
+    }
 }
 
 //*********************** Player registration ************************//
