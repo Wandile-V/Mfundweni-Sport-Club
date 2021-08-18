@@ -10,6 +10,7 @@ if(isset($_POST['register-submit']))
     $phone = mysqli_real_escape_string($db_connect, $_POST['member-phone']);
     $password = mysqli_real_escape_string($db_connect, $_POST['member-password']);
     $cpassword = mysqli_real_escape_string($db_connect, $_POST['confirm-password']);
+    // $encryptPassword = md5($password); //encrypts password
     
     if($cpassword == $password)//check if the password and confirm passsword match
     {
@@ -50,6 +51,7 @@ if(isset($_POST['LoginButton']))
     //Read all values inserted in the login form
     $memberEmail = mysqli_real_escape_string($db_connect, $_POST['member-email']);
     $memberPassword = mysqli_real_escape_string($db_connect, $_POST['member-password']);
+    // $encryptPassword = md5($memberPassword);
 
     //Read from the database
     $loginQuery = "SELECT * FROM members WHERE memberEmail = '$memberEmail' AND memberPassword = '$memberPassword'";
@@ -57,15 +59,17 @@ if(isset($_POST['LoginButton']))
 
     if(mysqli_num_rows($results) == 1)
     {
-        echo '<script>alert("Login Successful! :)")</script>';
-
-        //redirects
-        header('location: profile.php');
+        echo "<script>
+            alert('Login Successful!');
+            window.location.href='profile.php';  
+       </script>";
     }
     else
     {
-        header('location: login.php');
-        echo '<script>alert("Incorrect email/password")</script>'; //Error message if credentials are incorrect
+        echo "<script>
+            alert('Incorrect email/password!');
+            window.location.href='login.php'; 
+        </script>";
     }
 }
 ?>
