@@ -20,7 +20,7 @@
 	<div class="container">
 	<h3>Please feel free to contact us on the following information</h3>
 
-	Email: scemfundweni@gmail.com<br><br>
+	Email: scemfundweni@gmail.com<br>
 	Facebook: Mfundweni SC<br><br>
 
 	Address:<br> 
