@@ -95,10 +95,22 @@ input {
 	padding: 50px;
 }
 
-.img {
-	width: 120px; 
-	height: 120px;
-  }
+/* sets same height and width for all images */
+.gallery img {
+	float: left;
+	width:  250px;
+	height: 250px;
+	object-fit: cover;
+}
 
+.pictures{
+	margin: 10px 50px; 
+}
 
+/* centers lightbox */
+.gallery {
+	margin: auto;
+	width: 60%;	
+	padding: 10px;
+	}
 
