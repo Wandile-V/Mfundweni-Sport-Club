@@ -91,8 +91,9 @@ input {
 
 /**************************** CONTAINER *************************/
 .container{
-	margin: 50px 10px;
-	padding: 50px;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
 }
 
 /* sets same height and width for all images */
