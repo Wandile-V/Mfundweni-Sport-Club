@@ -91,7 +91,7 @@ input {
 
 /**************************** CONTAINER *************************/
 .container{
-	margin: auto;
+	float: left;
 	width: 60%;
 	padding: 10px;
 }
