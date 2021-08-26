@@ -3,6 +3,8 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 		<title>Home</title>
+		<meta name="description" content="">
+		<meta name="viewport" content=""
 		<link href="css/style.css" type="text/css" rel="stylesheet" />
 	</head>
 <body>
