@@ -8,7 +8,7 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet"/>
 	</head>
 <body>
-	<div id="navbar">		
+	<div class="navbar">		
 		<ul class="nav navbar-nav"> 
 			<li><a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
 			<li><a href="index.php">Home</a></li>

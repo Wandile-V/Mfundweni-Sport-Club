@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<div id="navbar" class="navbar-collapse collapse">
+	<div class="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
