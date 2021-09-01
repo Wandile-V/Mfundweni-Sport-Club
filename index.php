@@ -7,21 +7,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/style.css" type="text/css" rel="stylesheet"/>
 	</head>
-<body>
-	<div id="navbar">		
-		<ul class="nav navbar-nav"> 
-			<li><a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="about-us.php">About Us</a></li>
-			<li><a href="teams.php">Teams</a></li>
-			<li><a href="gallery.html">Gallery</a></li>						
-			<li><a href="contact-us.php">Contact Us</a></li>	
-			<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
-		</ul>
-	</div>
+	<body>
+		<div class="navbar">		
+			<ul class="nav navbar-nav"> 
+				<li><a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about-us.php">About Us</a></li>
+				<li><a href="teams.php">Teams</a></li>
+				<li><a href="gallery.html">Gallery</a></li>						
+				<li><a href="contact-us.php">Contact Us</a></li>	
+				<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
+			</ul>
+		</div>
 
-	<div class="container">
-		<h1>Welcome to the Mfundweni Sport Club page</h1>
-	</div>
-</body>
+		<div class="container">
+			<h1>Welcome to the Mfundweni Sport Club page</h1>
+		</div>
+	</body>
 </html>
