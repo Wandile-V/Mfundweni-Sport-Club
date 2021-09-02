@@ -19,7 +19,7 @@
 	</div>
 
 	<div class="container">
-		<h1>Welcome to the Mfundweni Sport Club page</h1>
+		<h1>Mfundweni Sporting Club</h1>
 	</div>
 </body>
 </html>
