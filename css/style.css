@@ -110,6 +110,11 @@ input {
 	object-fit: cover;
 }
 
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: (1.1);
+}
+
 .pictures{
 	margin: 10px 50px; 
 }

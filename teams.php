@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<div id="navbar" class="navbar-collapse collapse">
+	<div class="navbar" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
@@ -31,9 +31,11 @@
 	in rather deeper rural areas, with very limited resources compared to the club. Every identified potential player will be<br>
 	integrated into the club's ranks. </p>
 	<h3>Ngonini FC</h3>
+
+	<p>Click <a href="player-profile.php">here</a> to view the players within our ranks.</p>
 </div>
 
-	<p>Click <a href="player-profile.php">here</a> to view the players within our ranks.
+	
 
 </body>
 
