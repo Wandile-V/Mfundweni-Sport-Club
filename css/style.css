@@ -89,10 +89,17 @@ input {
     box-sizing: border-box;
 }
 
+ /**************************** Headers *************************/
+ .container h1{
+	text-align: center;
+	font-size:40px;
+}
+
 /**************************** CONTAINER *************************/
 .container{
-	margin: 50px 10px;
-	padding: 50px;
+	margin: auto;
+	width: 50%;	
+	padding: 10px;
 }
 
 /* sets same height and width for all images */
