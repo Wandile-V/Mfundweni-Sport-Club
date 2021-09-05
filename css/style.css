@@ -30,6 +30,11 @@ nav a{
 		font-family: Arial, Helvetica, sans-serif;
 		transition: 0.4s;
 	}
+	.nav-links{
+		display: flex;
+		justify-content: space-around;
+		width: 20px;
+	}
 
 	.logo {
 		width: 100px;
