@@ -63,7 +63,14 @@ nav a{
 		background-color: white;
 		margin: 5px
 	}
-	
+
+	@media screen and (max-width: 768px){
+		body{
+			overflow-x: hidden;
+		}
+		
+	}
+
 
 	.navLoginButton {
 		background-color: lightgrey;
