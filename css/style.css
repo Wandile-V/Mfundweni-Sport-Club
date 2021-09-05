@@ -54,7 +54,7 @@ nav a{
 
 			/*******Hamburger menu*****/
 	.burger {
-		display: flex;
+		display: none;
 		cursor: pointer;
 	}
 	.burger div {
