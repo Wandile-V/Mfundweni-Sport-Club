@@ -26,7 +26,7 @@ nav a{
 		width: 100px;
 		display: flex;
 		padding: 5px;
-		font-size: 15px;
+		font-size: 20px;
 		font-family: Arial, Helvetica, sans-serif;
 		transition: 0.4s;
 	}
@@ -45,12 +45,25 @@ nav a{
 		list-style: none;
 	}
 
-	.nav-links a{
+	/* .nav-links a{
 		text-decoration: none;
 		letter-spacing: 3px;
 		font-weight: bold;
 		font-size: 13px;
+	} */
+
+			/*******Hamburger menu*****/
+	.burger {
+		display: none;
+		cursor: pointer;
 	}
+	.burger div {
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin: 5px
+	}
+	
 
 	.navLoginButton {
 		background-color: lightgrey;
