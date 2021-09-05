@@ -25,16 +25,24 @@
         
         <div class="container">
             <p id="player-profile">Hello World</p>    
-             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-					<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="teams.php">Teams</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>						
-                    <li><a href="contact-us.php">Contact Us</a></li>
-                </ul>
-            </div>
+			<nav>
+		<div class="logo">
+			<a href="index.php" ><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/></a>
+		</div>
+		<ul class="nav-links">
+			<li><a href="index.php">Home</a></li>
+			<li><a href="about-us.php">About Us</a></li>
+			<li><a href="teams.php">Teams</a></li>
+			<li><a href="gallery.html">Gallery</a></li>						
+			<li><a href="contact-us.php">Contact Us</a></li>						
+		</ul>
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+	<script src="js/jscript.js"></script>
         
             <div class="player profile">
                
