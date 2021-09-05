@@ -8,16 +8,25 @@
 	</head>
 
 <body>
-	<div id="navbar">		
-		<ul class="nav navbar-nav"> 
-			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
+<nav>
+		<div class="logo">
+			<a href="index.php" ><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/></a>
+		</div>
+		<ul class="nav-links">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
 			<li><a href="contact-us.php">Contact Us</a></li>						
 		</ul>
-	</div>
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+	<script src="js/jscript.js"></script>
+	
 	<div class="form">
         <form class="contact-form" action="server.php" method="POST">
 			<h1>Login</h1>
