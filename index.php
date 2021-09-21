@@ -9,7 +9,7 @@
 	</head>
 <body>
 <nav>
-<div class="navbar">		
+	<div class="navbar">		
 		<ul class="nav navbar-nav"> 
 			<a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
@@ -19,6 +19,11 @@
 			<li><a href="contact-us.php">Contact Us</a></li>	
 			<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
 		</ul>
+	</div>
+	<div class="burger">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
 	</div>
 </nav>
 	
