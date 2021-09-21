@@ -8,7 +8,8 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet"/>
 	</head>
 <body>
-	<div class="navbar">		
+<nav>
+<div class="navbar">		
 		<ul class="nav navbar-nav"> 
 			<a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
@@ -19,6 +20,8 @@
 			<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
 		</ul>
 	</div>
+</nav>
+	
 
 	<div class="container">
 		<h1>Mfundweni Sporting Club</h1>
