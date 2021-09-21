@@ -9,9 +9,11 @@
 	</head>
 <body>
 <nav>
-	<div class="navbar">		
+	<div class="logo">
+		<a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
+	</div>
+	<div class="navbar">
 		<ul class="nav navbar-nav"> 
-			<a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
