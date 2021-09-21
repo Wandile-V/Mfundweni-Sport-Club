@@ -48,6 +48,10 @@ body{
 		cursor: pointer;
 		border-radius:10px;
 	  }
+.burger {
+	display: none;
+	cursor: pointer;
+}
 
 /**************************** FORMS *************************/
 /* For Mobile Phones */
