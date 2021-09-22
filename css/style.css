@@ -119,6 +119,9 @@ body{
 	.navbar li{
 		opacity: 0;
 	}
+	.burger{
+		display: block;
+	}
 
 }
 
