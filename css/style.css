@@ -98,9 +98,6 @@ body{
 }
 
 @media screen and (max-width:768px){
-	.logoImg{
-		align-items: center;
-	}
 	.navbar-nav{
 		position: absolute;
 		left: 0px;
