@@ -119,9 +119,10 @@ input {
 		overflow-x: hidden;
 	}
 	.navbar{
+		background-color:darkblue;
 		position: absolute;
 		right: 0px;
-		height: 92px;
+		height: 92vh;
 		top: 8vh;
 		display: flex;
 		flex-direction: column;
