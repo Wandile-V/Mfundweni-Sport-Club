@@ -133,6 +133,9 @@ input {
 	.burger{
 		display: block;
 	}
+	.nav-active{
+		transform:translateX(0%)
+	}
 
 }
 
