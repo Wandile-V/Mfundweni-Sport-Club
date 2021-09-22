@@ -55,7 +55,7 @@ body{
 		border-radius:10px;
 	  }
 .burger {
-	/* display: none; */
+	display: none;
 	cursor: pointer;
 }
 
