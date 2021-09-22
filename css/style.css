@@ -103,7 +103,7 @@ body{
 	}
 	.navbar-nav{
 		position: absolute;
-		right: 0px;
+		left: 0px;
 		height: 92px;
 		top: 8vh;
 		display: flex;
