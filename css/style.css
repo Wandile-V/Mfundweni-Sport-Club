@@ -6,14 +6,20 @@ body{
 }
 
 /**************************** NAVIGATION *************************/
-.navbar{
+/* .navbar{
 		list-style: none;
 		text-align: center;
 		padding: 0;
 		margin: 0;
 		display:flex;
+	} */
+	nav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		background-color: #4169E1;
 	}
-	
 .navbar li{
 		display:inline-block;
 	}
@@ -49,7 +55,7 @@ body{
 		border-radius:10px;
 	  }
 .burger {
-	display: none;
+	/* display: none; */
 	cursor: pointer;
 }
 
