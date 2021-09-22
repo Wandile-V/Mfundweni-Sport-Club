@@ -92,16 +92,19 @@ body{
 }
 /*****************************Screen resolutions************/
 @media screen and (max-width: 1024px){
-	.navbar{
+	.navbar-nav{
 		width: 60%;
 	}
 }
 
 @media screen and (max-width:768px){
-	.navbar{
+	.logoImg{
+		align-items: center;
+	}
+	.navbar-nav{
 		position: absolute;
 		right: 0px;
-		height: 92vh;
+		height: 92px;
 		top: 8vh;
 		display: flex;
 		flex-direction: column;
