@@ -111,6 +111,10 @@ body{
 		flex-direction: column;
 		transform: translateX(100%);
 	}
+	.navbar li{
+		opacity: 0;
+	}
+
 }
 
 input {
