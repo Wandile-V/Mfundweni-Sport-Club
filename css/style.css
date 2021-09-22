@@ -100,9 +100,9 @@ body{
 }
 
 @media screen and (max-width:768px){
-	.navbar-nav{
+	.navbar{
 		position: absolute;
-		left: 0px;
+		right: 0px;
 		height: 92px;
 		top: 8vh;
 		display: flex;
