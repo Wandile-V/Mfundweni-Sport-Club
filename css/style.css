@@ -9,23 +9,30 @@ body{
 }
 
 /**************************** NAVIGATION *************************/
-nav{
+/* .navbar{
+		list-style: none;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		display:flex;
+	} */
+	nav{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		min-height: 8vh;
+		background-color: #4169E1;
 	}
-	
-/* .nav li {
+.navbar li{
 		display:inline-block;
 	} */
 	
-nav a{
+.navbar a{
 		text-decoration: none;
 		color: white;
 		width: 100px;
 		display: flex;
-		padding: 5px;
+		padding: 15px;
 		font-size: 20px;
 		font-family: Arial, Helvetica, sans-serif;
 		transition: 0.4s;
@@ -36,8 +43,8 @@ nav a{
 		width: 20px;
 	}
 
-	.logo {
-		width: 100px;
+	.logoImg {
+	    width: 100%; 
 		height: 100px;
 		border-radius: 10px;
 	}
@@ -102,6 +109,17 @@ nav a{
 		cursor: pointer;
 		border-radius:10px;
 	  }
+.burger {
+	display: none;
+	cursor: pointer;
+}
+
+.burger div {
+	width: 25px;
+	height: 2px;
+	background-color: white;
+	margin: 5px;
+}
 
 /**************************** FORMS *************************/
 /* For Mobile Phones */
@@ -144,10 +162,60 @@ input {
     box-sizing: border-box;
 }
 
+/*****************************Screen resolutions************/
+@media screen and (max-width: 1024px){
+	.navbar-nav{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:768px){
+	body{
+		overflow-x: hidden;
+	}
+	.navbar{
+		/* background-color:darkblue; */
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		display: flex;
+		flex-direction: column;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+	/* .navbar li{
+		opacity: 0;
+	} */
+	.burger{
+		display: block;
+	}
+	.nav-active{
+		transform:translateX(0%)
+	}
+
+}
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+ /**************************** Headers *************************/
+ .container h1{
+	text-align: center;
+	font-size:40px;
+}
+
 /**************************** CONTAINER *************************/
 .container{
-	float: left;
-	width: 60%;
+	margin: auto;
+	width: 50%;	
 	padding: 10px;
 }
 
@@ -157,6 +225,11 @@ input {
 	width:  250px;
 	height: 250px;
 	object-fit: cover;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: (1.1);
 }
 
 .pictures{
