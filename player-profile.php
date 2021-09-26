@@ -27,7 +27,7 @@
             <p id="player-profile">Hello World</p>    
 			<nav>
 		<div class="logo">
-			<a href="index.php" ><img src="images/MSCLogo.jpg" alt="MSC logo" class="logo"/></a>
+			<a href="index.php" ><img src="images/MSCLogo.jpg" alt="MSC logo" class="logoImg"/></a>
 		</div>
 		<ul class="nav-links">
 			<li><a href="index.php">Home</a></li>
