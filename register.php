@@ -24,7 +24,6 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
 	<div class="form">
 			<form class="register-form" action="server.php" method="POST">
 					<h1>Member Registration</h1>
@@ -59,7 +58,7 @@
 
 			
 	</div>
-
+<script src="js/jscript.js"></script>
 </body>
 
 </html>

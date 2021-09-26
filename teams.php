@@ -22,7 +22,6 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
 <div class="container">
 	<h1>TEAMS</h1>
 	<h3>First Team</h3>
@@ -42,7 +41,7 @@
 </div>
 
 	
-
+<script src="js/jscript.js"></script>
 </body>
 
 </html>

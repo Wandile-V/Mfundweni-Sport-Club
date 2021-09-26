@@ -23,8 +23,6 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
-	
 	<div class="form">
         <form class="contact-form" action="server.php" method="POST">
 			<h1>Login</h1>
@@ -42,6 +40,7 @@
             <p>Do not have an account? Click here to <a href="register.php">register</a></p>
         </form>
 	</div>
+<script src="js/jscript.js"></script>
 </body>
 
 </html>

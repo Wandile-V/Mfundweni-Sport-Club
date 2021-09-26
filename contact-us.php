@@ -21,7 +21,7 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
+
 
 	<div class="container">
 	<h3>Please feel free to contact us on the following information</h3>
@@ -34,7 +34,7 @@
 	Umzimkhulu<br>
 	3297	
 	</div>
-
+<script src="js/jscript.js"></script>
 </body>
 
 </html>

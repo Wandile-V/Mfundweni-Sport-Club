@@ -23,14 +23,14 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
+
 	<div class="container">
 		 <h1>Member Profile</h1> <!-- Member profile table goes here -->
         
     
         
 	</div>
-
+<script src="js/jscript.js"></script>
 </body>
 
 </html>

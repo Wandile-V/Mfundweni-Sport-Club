@@ -39,7 +39,6 @@
 
 					<input class="button" type="submit" name="player-reg-submit" value="Submit">
 		</form> 
-        
 	</div>
 
 </body>

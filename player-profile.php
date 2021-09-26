@@ -42,8 +42,6 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
-        
             <div class="player profile">
                
                 <form method="post">
@@ -109,5 +107,6 @@
 				Click <a href="player-reg.php">here</a> to register a new player.
             </div>
         </div>
+	<script src="js/jscript.js"></script>	
     </body>
 </html>

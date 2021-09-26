@@ -23,14 +23,14 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
-	<script src="js/jscript.js"></script>
+
 	<div class="container">
 		<h1>ABOUT US</h1>
 		<p>This is about Mfundweni Sport Club, a small club in the rural areas of Umzimkhulu<br>
 		within the KwaZulu-Natal province in South Africa. Mfundweni Sport Club aims to promote extra activities amongst the youth through sport. </p>
 		</p>	
 	</div>
-
+<script src="js/jscript.js"></script>
 </body>
 
 </html>
