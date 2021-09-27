@@ -8,6 +8,9 @@
 	</head>
 
 <body>
+<nav>
+	
+</nav>
 	<div class="navbar">		
 		<ul class="nav navbar-nav"> 
 			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a></li>
