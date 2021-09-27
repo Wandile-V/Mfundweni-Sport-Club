@@ -44,6 +44,7 @@
             <p>Do not have an account? Click here to <a href="register.php">register</a></p>
         </form>
 	</div>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
