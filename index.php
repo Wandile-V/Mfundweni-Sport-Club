@@ -27,10 +27,9 @@
 	</div>
 </nav>
 	
-
-	<div class="container">
-		<h1>Mfundweni Sporting Club</h1>
-	</div>
+<div class="container">
+	<h1>Mfundweni Sporting Club</h1>
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>
