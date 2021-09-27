@@ -41,7 +41,7 @@
 		</div>
 	</nav>
         <div class="container">
-            <p id="player-profile">Hello World</p>    
+            <p id="player-profile">Player Profile</p>    
 
         
             <div class="player profile">
