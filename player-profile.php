@@ -101,5 +101,6 @@
 				Click <a href="player-reg.php">here</a> to register a new player.
             </div>
         </div>
+		<script src="js/script.js"></script>
     </body>
 </html>
