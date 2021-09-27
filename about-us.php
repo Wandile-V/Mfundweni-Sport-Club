@@ -24,7 +24,7 @@
 		within the KwaZulu-Natal province in South Africa. Mfundweni Sport Club aims to promote extra activities amongst the youth through sport. </p>
 		</p>	
 	</div>
-
+	<script src="js/script.js"></script>
 </body>
 
 </html>
