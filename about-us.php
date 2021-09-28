@@ -8,23 +8,31 @@
 </head>
 
 <body>
-	<div class="navbar">		
-		<ul class="nav navbar-nav"> 
-			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logo"/></a>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="about-us.php">About Us</a></li>
-			<li><a href="teams.php">Teams</a></li>
-			<li><a href="gallery.html">Gallery</a></li>						
-			<li><a href="contact-us.php">Contact Us</a></li>						
-		</ul>
+<nav>
+	<div class="logo">
+		<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
 	</div>
+	<ul class="navbar"> 	
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about-us.php">About Us</a></li>
+		<li><a href="teams.php">Teams</a></li>
+		<li><a href="gallery.html">Gallery</a></li>						
+		<li><a href="contact-us.php">Contact Us</a></li>	
+		<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
+	</ul>
+	<div class="burger">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+	</div>
+</nav>
 	<div class="container">
 		<h1>ABOUT US</h1>
 		<p>This is about Mfundweni Sport Club, a small club in the rural areas of Umzimkhulu<br>
 		within the KwaZulu-Natal province in South Africa. Mfundweni Sport Club aims to promote extra activities amongst the youth through sport. </p>
 		</p>	
 	</div>
-
+	<script src="js/script.js"></script>
 </body>
 
 </html>
