@@ -44,11 +44,7 @@
 </div>
 
 	
-<<<<<<< HEAD
-<script src="js/jscript.js"></script>
-=======
 <script src="js/script.js"></script>
->>>>>>> eb65e8cfe25fa303bf0adefcada7ac39984f88fd
 </body>
 
 </html>
