@@ -8,16 +8,24 @@
 </head>
 
 <body>
-	<div id="navbar">		
-		<ul class="nav navbar-nav"> 
-			<li><a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a></li>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="about-us.php">About Us</a></li>
-			<li><a href="teams.php">Teams</a></li>
-			<li><a href="gallery.html">Gallery</a></li>						
-			<li><a href="contact-us.php">Contact Us</a></li>						
-		</ul>
+<nav>
+	<div class="logo">
+		<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
 	</div>
+	<ul class="navbar"> 	
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about-us.php">About Us</a></li>
+		<li><a href="teams.php">Teams</a></li>
+		<li><a href="gallery.html">Gallery</a></li>						
+		<li><a href="contact-us.php">Contact Us</a></li>	
+		<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
+	</ul>
+	<div class="burger">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+	</div>
+</nav>
 	<div class="container">
 		 <h1>Player registration</h1> <!-- Player registration section -->
 		 <form class="form" action="server.php" method="POST">
@@ -40,7 +48,7 @@
 					<input class="button" type="submit" name="player-reg-submit" value="Submit">
 		</form> 
 	</div>
-
+	<script src="js/script.js"></script>
 </body>
 
 </html>

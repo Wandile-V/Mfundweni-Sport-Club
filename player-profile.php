@@ -22,19 +22,17 @@
         <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        
-        <div class="container">
-            <p id="player-profile">Hello World</p>    
-			<nav>
+	<nav>
 		<div class="logo">
-			<a href="index.php" ><img src="images/MSCLogo.jpg" alt="MSC logo" class="logoImg"/></a>
+			<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
 		</div>
-		<ul class="nav-links">
+		<ul class="navbar"> 	
 			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="gallery.html">Gallery</a></li>						
-			<li><a href="contact-us.php">Contact Us</a></li>						
+			<li><a href="contact-us.php">Contact Us</a></li>	
+			<li><a href="login.php"><button class="navLoginButton">Login</button></a></li>
 		</ul>
 		<div class="burger">
 			<div class="line1"></div>
@@ -42,6 +40,10 @@
 			<div class="line3"></div>
 		</div>
 	</nav>
+        <div class="container">
+            <p id="player-profile">Player Profile</p>    
+
+        
             <div class="player profile">
                
                 <form method="post">
@@ -107,6 +109,6 @@
 				Click <a href="player-reg.php">here</a> to register a new player.
             </div>
         </div>
-	<script src="js/jscript.js"></script>	
+		<script src="js/script.js"></script>
     </body>
 </html>

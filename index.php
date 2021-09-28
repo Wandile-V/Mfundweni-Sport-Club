@@ -10,7 +10,7 @@
 <body>
 <nav>
 	<div class="logo">
-		<a href="#"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
+		<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
 	</div>
 	<ul class="navbar"> 	
 		<li><a href="index.php">Home</a></li>
@@ -27,10 +27,9 @@
 	</div>
 </nav>
 	
-
-	<div class="container">
-		<h1>Mfundweni Sporting Club</h1>
-	</div>
+<div class="container">
+	<h1>Mfundweni Sporting Club</h1>
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>
