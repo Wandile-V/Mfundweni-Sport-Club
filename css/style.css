@@ -22,6 +22,7 @@ body{
 		align-items: center;
 		min-height: 8vh;
 		background-color: #4169E1;
+		margin-top: 10px;
 	}
 .navbar li{
 		display:inline-block;
