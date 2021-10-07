@@ -3,37 +3,99 @@ body{
 	/* link for blue color code: https://htmlcolorcodes.com/colors/shades-of-blue/  */
 	background-color: #4169E1;
 	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
 /**************************** NAVIGATION *************************/
-.nav ul{
+/* .navbar{
 		list-style: none;
 		text-align: center;
 		padding: 0;
 		margin: 0;
+		display:flex;
+	} */
+	nav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		background-color: #4169E1;
+		margin-top: 10px;
 	}
-	
-.nav li {
+.navbar li{
 		display:inline-block;
-	}
+	} */
 	
-.nav a {
+.navbar a{
 		text-decoration: none;
 		color: white;
 		width: 100px;
-		display: block;
+		display: flex;
 		padding: 15px;
 		font-size: 20px;
 		font-family: Arial, Helvetica, sans-serif;
 		transition: 0.4s;
 	}
+	.nav-links{
+		display: flex;
+		justify-content: space-around;
+		width: 20px;
+	}
 
-	.logo {
+	.logoImg {
 	    width: 100%; 
 		height: 100px;
 		border-radius: 10px;
-    	float: left; 
 	}
+	.nav-links li{
+		list-style: none;
+	}
+
+	/* .nav-links a{
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-weight: bold;
+		font-size: 13px;
+	} */
+
+			/*******Hamburger menu*****/
+	.burger {
+		display: none;
+		cursor: pointer;
+	}
+	.burger div {
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin: 5px
+	}
+
+	@media screen and (max-width: 768px){
+		body{
+			overflow-x: hidden;
+		}
+		.nav-links {
+			position: absolute;
+			right: 0px;
+			height: 92vh;
+			top: 8vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 25px;
+			transform: translateX(100%);
+			transition: transform 0.5s ease-in;
+		}
+		.burger{
+			display: block;
+		}
+	}
+	.nav-active{
+		transform: translateX(0%);
+	}
+
 
 	.navLoginButton {
 		background-color: lightgrey;
@@ -48,6 +110,17 @@ body{
 		cursor: pointer;
 		border-radius:10px;
 	  }
+.burger {
+	display: none;
+	cursor: pointer;
+}
+
+.burger div {
+	width: 25px;
+	height: 2px;
+	background-color: white;
+	margin: 5px;
+}
 
 /**************************** FORMS *************************/
 /* For Mobile Phones */
@@ -90,6 +163,50 @@ input {
     box-sizing: border-box;
 }
 
+/*****************************Screen resolutions************/
+@media screen and (max-width: 1024px){
+	.navbar-nav{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:768px){
+	body{
+		overflow-x: hidden;
+	}
+	.navbar{
+		/* background-color:darkblue; */
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		display: flex;
+		flex-direction: column;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+	/* .navbar li{
+		opacity: 0;
+	} */
+	.burger{
+		display: block;
+	}
+	.nav-active{
+		transform:translateX(0%)
+	}
+
+}
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
  /**************************** Headers *************************/
  .container h1{
 	text-align: center;
