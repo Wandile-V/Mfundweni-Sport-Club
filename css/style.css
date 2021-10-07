@@ -9,13 +9,6 @@ body{
 }
 
 /**************************** NAVIGATION *************************/
-/* .navbar{
-		list-style: none;
-		text-align: center;
-		padding: 0;
-		margin: 0;
-		display:flex;
-	} */
 	nav{
 		display: flex;
 		justify-content: space-around;
