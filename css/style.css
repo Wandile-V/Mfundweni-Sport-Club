@@ -120,7 +120,6 @@ input {
 		overflow-x: hidden;
 	}
 	.navbar{
-		/* background-color:darkblue; */
 		position: absolute;
 		right: 0px;
 		height: 92vh;
@@ -130,9 +129,9 @@ input {
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
 	}
-	/* .navbar li{
+	.navbar li{
 		opacity: 0;
-	} */
+	}
 	.burger{
 		display: block;
 	}
