@@ -129,9 +129,9 @@ input {
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
 	}
-	.navbar li{
+	/* .navbar li{
 		opacity: 0;
-	}
+	} */
 	.burger{
 		display: block;
 	}
