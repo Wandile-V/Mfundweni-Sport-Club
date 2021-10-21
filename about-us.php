@@ -11,6 +11,7 @@
 <nav>
 	<div class="logo">
 		<a href="index.php"><img src="images/MSCLogo.jpg" alt="MSC Logo" class="logoImg"/></a>	
+		<p>Mfundweni Sporting Club</p>
 	</div>
 	<div class="menu">
 		<ul class="navbar"> 	
